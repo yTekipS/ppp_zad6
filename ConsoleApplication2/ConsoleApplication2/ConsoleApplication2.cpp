@@ -45,5 +45,10 @@ int main() {
 			file << a;
 		}
 	}
+	int i = 0;
+	for (auto item : bin) {
+		std::cout << item + " -> " << binTOint[i] << "\n";
+		i++;
+	}
 
 }
